@@ -1,0 +1,189 @@
+:root {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  color: #171717;
+  background: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #ffffff;
+}
+
+button {
+  font: inherit;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 20px 18px 28px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.brand-mark {
+  font-size: 19px;
+}
+
+.privacy-badge {
+  padding: 4px 8px;
+
+  border-radius: 20px;
+
+  background: #f1f5f1;
+
+  color: #507050;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.hero {
+  margin-top: 36px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+
+  color: #777;
+}
+
+.hero h1 {
+  margin: 0;
+
+  font-size: 30px;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
+
+.subtitle {
+  margin: 14px 0 0;
+
+  color: #6b6b6b;
+
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.section h2 {
+  margin: 0 0 10px;
+
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+
+  color: #777;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 0;
+
+  border-bottom: 1px solid #eeeeee;
+}
+
+.info-content {
+  min-width: 0;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-label {
+  font-size: 11px;
+  color: #888;
+}
+
+.info-value {
+  overflow: hidden;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.info-value.multiline {
+  white-space: normal;
+  line-height: 1.45;
+}
+
+.copy-button {
+  flex-shrink: 0;
+
+  padding: 7px 10px;
+
+  border: 1px solid #dedede;
+  border-radius: 7px;
+
+  background: #ffffff;
+
+  color: #333;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  background: #f7f7f7;
+}
+
+.copy-button.copied {
+  border-color: #b8d6b8;
+
+  background: #eef7ee;
+
+  color: #3e713e;
+}
+
+.privacy-note {
+  margin: 30px 4px 0;
+
+  color: #888;
+
+  font-size: 10px;
+  line-height: 1.5;
+
+  text-align: center;
+}

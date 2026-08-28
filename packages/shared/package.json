@@ -1,0 +1,7 @@
+{
+  "name": "@janseva/shared",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./profile.ts",
+  "types": "./profile.ts"
+}
