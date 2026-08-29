@@ -43,20 +43,33 @@ function Questionnaire({
       </p>
 
       <div className="progress-track" aria-hidden="true">
-        <span style={{ width: `${((questionIndex + 1) / questions.length) * 100}%` }} />
+        <span
+          style={{
+            width: `${((questionIndex + 1) / questions.length) * 100}%`,
+          }}
+        />
       </div>
 
       <section className="question-card">
         <p className="eyebrow">A quick question</p>
+
         <h1>{question.question}</h1>
 
         <div className="answer-actions">
-          <button className="answer-button" onClick={() => handleAnswer("yes")}>
-            <span>Yes</span><span aria-hidden="true">→</span>
+          <button
+            className="answer-button"
+            onClick={() => handleAnswer("yes")}
+          >
+            <span>Yes</span>
+            <span aria-hidden="true">→</span>
           </button>
 
-          <button className="answer-button" onClick={() => handleAnswer("no")}>
-            <span>No</span><span aria-hidden="true">→</span>
+          <button
+            className="answer-button"
+            onClick={() => handleAnswer("no")}
+          >
+            <span>No</span>
+            <span aria-hidden="true">→</span>
           </button>
         </div>
       </section>

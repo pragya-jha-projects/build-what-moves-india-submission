@@ -182,3 +182,66 @@
     border-right-color: var(--border);
   }
 }
+
+.epfo-action {
+  margin-top: 28px;
+  padding: 22px;
+  border-radius: 24px;
+  background: #173f36;
+  color: #ffffff;
+  box-shadow: 0 12px 30px rgba(23, 63, 54, 0.12);
+}
+
+.epfo-action .eyebrow {
+  color: #f0a078;
+}
+
+.epfo-action h2 {
+  margin: 0;
+  color: #ffffff;
+  font-family:
+    "Playfair Display",
+    Georgia,
+    serif;
+  font-size: 24px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.epfo-action p:not(.eyebrow) {
+  margin: 10px 0 18px;
+  color: #d9e3dd;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.epfo-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 13px 15px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #e56c39;
+  color: #ffffff;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.epfo-button:hover {
+  background: #d85f2f;
+}
+
+.epfo-button:active {
+  transform: translateY(1px);
+}

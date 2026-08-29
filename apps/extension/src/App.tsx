@@ -49,17 +49,44 @@ function App() {
   }
 
   if (!profile) {
-    return (
-      <div className="app">
+  return (
+    <div className="app">
+      <header className="header">
         <div className="brand">
-          <span>🇮🇳</span>
+          <span className="brand-mark">🇮🇳</span>
           <span>JanSeva</span>
         </div>
 
-        <p>Save your information on the JanSeva website to see it here.</p>
-      </div>
-    )
-  }
+        <span className="privacy-badge">
+          Session only
+        </span>
+      </header>
+
+      <section className="hero">
+        <p className="eyebrow">
+          YOUR INFORMATION
+        </p>
+
+        <h1>
+          Ready when
+          <br />
+          you need it.
+        </h1>
+
+        <p className="subtitle">
+          Save your information on the JanSeva
+          website and it will appear here when
+          you need it.
+        </p>
+      </section>
+
+      <p className="privacy-note">
+        🔒 Your information is stored only for
+        this browser session.
+      </p>
+    </div>
+  )
+}
 
   return (
     <div className="app">
